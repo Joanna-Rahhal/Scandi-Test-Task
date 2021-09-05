@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 75px;
+    /* background-color: bisque; */
+    display: flex;
+    border-bottom: 2px solid black;
+    margin: 0 3% 0 3%;
+}
+.title{
+    /* background-color: brown; */
+    width:30%;
+    line-height: 115px;
+}
+.title h1{
+    font-size: 30px;
+}
+nav .buttons{
+    margin-left: auto;
+    line-height: 110px;
+    /* background-color: blueviolet; */
+    width: 18%;
+    
+}
+nav .button{
+    margin: 0 30px 0 0;
+    background-color: transparent;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px 1px;
+    padding: 2px 5px 2px 5px;
+    
+}
+.container{
+    /* background-color: bisque; */
+    /* margin: 150px 0 0 0; */
+    margin: 7% 3% 0 3%;
+}
+.container input{
+    border: 2px solid black;
+}
+.inputs li{
+    list-style: none;
+    padding-top: 10px;
+}
+.inputs li label{
+    display: inline-block;
+    width: 70px;
+    font-size: 20px;
+}
+.inputs{
+    padding: 15px 0 0 10px;
+}
+.switch{
+    /* background-color: burlywood; */
+    height: 100px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.switch label{
+    padding:20px 50px 0 10px;
+    font-size: 20px ;
+    font-weight: bold;
+
+}
+.switch select{
+    border: 2px solid black;
+    height: 25px;
+}
+#dvd-box{
+    border: 2px solid black;
+    width: 22%;
+    height: 150px;
+    padding: 60px 0 0 10px;
+    margin-top: 150px;
+}
+#dvd-box label{
+    font-size: 20px;
+    padding-right: 20px;
+}
+#dvd-box ul{
+    list-style: none;
+}
+#dvd-box input{
+    border: 2px solid black;
+}
+#furniture-box{
+    border: 2px solid black;
+    width: 25%;
+    height: 200px;
+    padding:  25px 0 0 10px;
+    margin-top: 150px;
+}
+#furniture-box ul {
+    list-style: none;
+}
+#furniture-box label{
+    display:inline-block;
+    width: 110px; 
+    font-size: 20px;
+}
+#furniture-box li{
+    padding: 10px 0 0 0 ;
+}
+#furniture-box input{
+    border: 2px solid black;
+}
+#book-box{
+    height: 150px;
+    width: 22%;
+    border: 2px solid black;
+    padding: 60px 0 0 10px;
+    margin-top: 150px;
+}
+#book-box ul{
+    list-style: none;
+}
+#book-box label{
+    display: inline-block;
+    width: 120px;
+    font-size:20px
+}
+#book-box input{
+    border: 2px solid black;
+}
+.footer{
+    height: 70px;
+    /* background-color: brown; */
+    border-top: 2px solid black;
+    /* position: relative; */
+    margin: 100px 3% 0 3%;
+}
+.footer p{
+    text-align: center;
+}
+.data{
+    display: none;
+}
